@@ -1,0 +1,4 @@
+Invoking command in '/home/esarchiv/Desktop/testfile/build/target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/target -- -j20 -l20
+Invoked command in '/home/esarchiv/Desktop/testfile/build/target' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/target -- -j20 -l20
+Invoking command in '/home/esarchiv/Desktop/testfile/build/target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/esarchiv/Desktop/testfile/build/target
+Invoked command in '/home/esarchiv/Desktop/testfile/build/target' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/esarchiv/Desktop/testfile/build/target

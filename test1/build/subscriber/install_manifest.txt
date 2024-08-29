@@ -1,0 +1,16 @@
+/home/esarchiv/Desktop/testfile/install/subscriber/lib/subscriber/subscriber
+/home/esarchiv/Desktop/testfile/install/subscriber/share/ament_index/resource_index/package_run_dependencies/subscriber
+/home/esarchiv/Desktop/testfile/install/subscriber/share/ament_index/resource_index/parent_prefix_path/subscriber
+/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/environment/ament_prefix_path.sh
+/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/environment/ament_prefix_path.dsv
+/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/environment/path.sh
+/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/environment/path.dsv
+/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/local_setup.bash
+/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/local_setup.sh
+/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/local_setup.zsh
+/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/local_setup.dsv
+/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/package.dsv
+/home/esarchiv/Desktop/testfile/install/subscriber/share/ament_index/resource_index/packages/subscriber
+/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/cmake/subscriberConfig.cmake
+/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/cmake/subscriberConfig-version.cmake
+/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/package.xml

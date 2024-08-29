@@ -1,0 +1,2 @@
+Invoking command in '/home/esarchiv/Desktop/testfile/build/transformer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/transformer -- -j20 -l20
+Invoked command in '/home/esarchiv/Desktop/testfile/build/transformer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/transformer -- -j20 -l20

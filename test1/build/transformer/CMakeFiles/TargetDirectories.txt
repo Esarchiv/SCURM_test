@@ -1,0 +1,10 @@
+/home/esarchiv/Desktop/testfile/build/transformer/CMakeFiles/uninstall.dir
+/home/esarchiv/Desktop/testfile/build/transformer/CMakeFiles/transformer_uninstall.dir
+/home/esarchiv/Desktop/testfile/build/transformer/CMakeFiles/transformer.dir
+/home/esarchiv/Desktop/testfile/build/transformer/CMakeFiles/test.dir
+/home/esarchiv/Desktop/testfile/build/transformer/CMakeFiles/edit_cache.dir
+/home/esarchiv/Desktop/testfile/build/transformer/CMakeFiles/rebuild_cache.dir
+/home/esarchiv/Desktop/testfile/build/transformer/CMakeFiles/list_install_components.dir
+/home/esarchiv/Desktop/testfile/build/transformer/CMakeFiles/install.dir
+/home/esarchiv/Desktop/testfile/build/transformer/CMakeFiles/install/local.dir
+/home/esarchiv/Desktop/testfile/build/transformer/CMakeFiles/install/strip.dir

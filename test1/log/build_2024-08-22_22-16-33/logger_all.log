@@ -1,0 +1,573 @@
+[0.110s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.110s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x719ea39f5570>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x719ea3b35c60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x719ea3b35c60>>, mixin_verb=('build',))[0m
+[0.259s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.259s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.259s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.259s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.259s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.259s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.259s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/esarchiv/Desktop/testfile'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extension 'ignore'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extension 'ignore_ament_install'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extensions ['colcon_pkg']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extension 'colcon_pkg'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extensions ['colcon_meta']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extension 'colcon_meta'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extensions ['ros']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extension 'ros'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extensions ['cmake', 'python']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extension 'cmake'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extension 'python'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extensions ['python_setup_py']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator) by extension 'python_setup_py'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extension 'ignore'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extension 'ignore_ament_install'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extensions ['colcon_pkg']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extension 'colcon_pkg'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extensions ['colcon_meta']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extension 'colcon_meta'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extensions ['ros']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extension 'ros'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extensions ['cmake', 'python']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extension 'cmake'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extension 'python'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extensions ['python_setup_py']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data) by extension 'python_setup_py'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extension 'ignore'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extension 'ignore_ament_install'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extensions ['colcon_pkg']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extension 'colcon_pkg'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extensions ['colcon_meta']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extension 'colcon_meta'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extensions ['ros']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extension 'ros'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extensions ['cmake', 'python']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extension 'cmake'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extension 'python'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extensions ['python_setup_py']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Managed) by extension 'python_setup_py'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extension 'ignore'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extension 'ignore_ament_install'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extensions ['colcon_pkg']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extension 'colcon_pkg'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extensions ['colcon_meta']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extension 'colcon_meta'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extensions ['ros']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extension 'ros'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extensions ['cmake', 'python']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extension 'cmake'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extension 'python'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extensions ['python_setup_py']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge) by extension 'python_setup_py'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extension 'ignore'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extension 'ignore_ament_install'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extensions ['colcon_pkg']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extension 'colcon_pkg'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extensions ['colcon_meta']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extension 'colcon_meta'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extensions ['ros']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extension 'ros'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extensions ['cmake', 'python']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extension 'cmake'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extension 'python'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extensions ['python_setup_py']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc) by extension 'python_setup_py'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extension 'ignore'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extension 'ignore_ament_install'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extensions ['colcon_pkg']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extension 'colcon_pkg'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extensions ['colcon_meta']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extension 'colcon_meta'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extensions ['ros']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extension 'ros'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extensions ['cmake', 'python']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extension 'cmake'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extension 'python'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extensions ['python_setup_py']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono) by extension 'python_setup_py'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'ignore'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'ignore_ament_install'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extensions ['colcon_pkg']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'colcon_pkg'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extensions ['colcon_meta']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'colcon_meta'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extensions ['ros']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'ros'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extensions ['cmake', 'python']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'cmake'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'python'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extensions ['python_setup_py']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0) by extension 'python_setup_py'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'ignore'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'ignore_ament_install'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extensions ['colcon_pkg']
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'colcon_pkg'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extensions ['colcon_meta']
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'colcon_meta'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extensions ['ros']
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'ros'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extensions ['cmake', 'python']
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'cmake'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'python'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extensions ['python_setup_py']
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/2.0/Browsers) by extension 'python_setup_py'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'ignore'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'ignore_ament_install'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extensions ['colcon_pkg']
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'colcon_pkg'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extensions ['colcon_meta']
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'colcon_meta'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extensions ['ros']
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'ros'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extensions ['cmake', 'python']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'cmake'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'python'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extensions ['python_setup_py']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0) by extension 'python_setup_py'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'ignore'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'ignore_ament_install'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extensions ['colcon_pkg']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'colcon_pkg'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extensions ['colcon_meta']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'colcon_meta'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extensions ['ros']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'ros'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extensions ['cmake', 'python']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'cmake'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'python'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extensions ['python_setup_py']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.0/Browsers) by extension 'python_setup_py'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'ignore'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'ignore_ament_install'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extensions ['colcon_pkg']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'colcon_pkg'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extensions ['colcon_meta']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'colcon_meta'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extensions ['ros']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'ros'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extensions ['cmake', 'python']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'cmake'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'python'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extensions ['python_setup_py']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5) by extension 'python_setup_py'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'ignore'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'ignore_ament_install'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extensions ['colcon_pkg']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'colcon_pkg'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extensions ['colcon_meta']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'colcon_meta'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extensions ['ros']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'ros'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extensions ['cmake', 'python']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'cmake'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'python'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extensions ['python_setup_py']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/4.5/Browsers) by extension 'python_setup_py'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'ignore'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'ignore_ament_install'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extensions ['colcon_pkg']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'colcon_pkg'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extensions ['colcon_meta']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'colcon_meta'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extensions ['ros']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'ros'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extensions ['cmake', 'python']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'cmake'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'python'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extensions ['python_setup_py']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/etc/mono/mconfig) by extension 'python_setup_py'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extension 'ignore'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extension 'ignore_ament_install'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extensions ['colcon_pkg']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extension 'colcon_pkg'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extensions ['colcon_meta']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extension 'colcon_meta'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extensions ['ros']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extension 'ros'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extensions ['cmake', 'python']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extension 'cmake'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extension 'python'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extensions ['python_setup_py']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/MonoBleedingEdge/x86_64) by extension 'python_setup_py'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extension 'ignore'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extension 'ignore_ament_install'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extensions ['colcon_pkg']
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extension 'colcon_pkg'
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extensions ['colcon_meta']
+[0.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extension 'colcon_meta'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extensions ['ros']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extension 'ros'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extensions ['cmake', 'python']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extension 'cmake'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extension 'python'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extensions ['python_setup_py']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Plugins) by extension 'python_setup_py'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extension 'ignore'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extension 'ignore_ament_install'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extensions ['colcon_pkg']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extension 'colcon_pkg'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extensions ['colcon_meta']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extension 'colcon_meta'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extensions ['ros']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extension 'ros'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extensions ['cmake', 'python']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extension 'cmake'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extension 'python'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extensions ['python_setup_py']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(RMSimulator/RMSimulator_Data/Resources) by extension 'python_setup_py'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'ignore'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'ignore_ament_install'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['colcon_pkg']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'colcon_pkg'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['colcon_meta']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'colcon_meta'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['ros']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'ros'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['cmake', 'python']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'cmake'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'python'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['python_setup_py']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'python_setup_py'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extension 'ignore'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extension 'ignore_ament_install'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extensions ['colcon_pkg']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extension 'colcon_pkg'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extensions ['colcon_meta']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extension 'colcon_meta'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extensions ['ros']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extension 'ros'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extensions ['cmake', 'python']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extension 'cmake'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extension 'python'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extensions ['python_setup_py']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace) by extension 'python_setup_py'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/target) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/target) by extension 'ignore'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/target) by extension 'ignore_ament_install'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/target) by extensions ['colcon_pkg']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/target) by extension 'colcon_pkg'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/target) by extensions ['colcon_meta']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/target) by extension 'colcon_meta'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/target) by extensions ['ros']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/target) by extension 'ros'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'mycodespace/target' with type 'ros.ament_cmake' and name 'target'[0m
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/test_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/test_cpp) by extension 'ignore'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/test_cpp) by extension 'ignore_ament_install'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/test_cpp) by extensions ['colcon_pkg']
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/test_cpp) by extension 'colcon_pkg'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/test_cpp) by extensions ['colcon_meta']
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/test_cpp) by extension 'colcon_meta'
+[0.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/test_cpp) by extensions ['ros']
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/test_cpp) by extension 'ros'
+[0.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'mycodespace/test_cpp' with type 'ros.ament_cmake' and name 'subscriber'[0m
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/tf) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/tf) by extension 'ignore'
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/tf) by extension 'ignore_ament_install'
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/tf) by extensions ['colcon_pkg']
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/tf) by extension 'colcon_pkg'
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/tf) by extensions ['colcon_meta']
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/tf) by extension 'colcon_meta'
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/tf) by extensions ['ros']
+[0.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(mycodespace/tf) by extension 'ros'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'mycodespace/tf' with type 'ros.ament_cmake' and name 'transformer'[0m
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sentry_description) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sentry_description) by extension 'ignore'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sentry_description) by extension 'ignore_ament_install'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sentry_description) by extensions ['colcon_pkg']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sentry_description) by extension 'colcon_pkg'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sentry_description) by extensions ['colcon_meta']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sentry_description) by extension 'colcon_meta'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sentry_description) by extensions ['ros']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sentry_description) by extension 'ros'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'sentry_description' with type 'ros.ament_cmake' and name 'sentry_description'[0m
+[0.288s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.288s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.288s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.288s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.288s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.319s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.319s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.320s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/esarchiv/Desktop/testfile/install/test_cpp' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.320s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/esarchiv/Desktop/testfile/install/publisher' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.320s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/esarchiv/Desktop/testfile/install/test_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.320s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/esarchiv/Desktop/testfile/install/publisher' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.321s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 4 installed packages in /home/esarchiv/Desktop/testfile/install[0m
+[0.322s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 358 installed packages in /opt/ros/humble[0m
+[0.324s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'cmake_args' from command line to 'None'
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'cmake_target' from command line to 'None'
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sentry_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'sentry_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/esarchiv/Desktop/testfile/build/sentry_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/esarchiv/Desktop/testfile/install/sentry_description', 'merge_install': False, 'path': '/home/esarchiv/Desktop/testfile/sentry_description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'subscriber' build argument 'cmake_args' from command line to 'None'
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'subscriber' build argument 'cmake_target' from command line to 'None'
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.362s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.363s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.363s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.363s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/esarchiv/Desktop/testfile/build/subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/esarchiv/Desktop/testfile/install/subscriber', 'merge_install': False, 'path': '/home/esarchiv/Desktop/testfile/mycodespace/test_cpp', 'symlink_install': False, 'test_result_base': None}[0m
+[0.363s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'target' build argument 'cmake_args' from command line to 'None'
+[0.363s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'target' build argument 'cmake_target' from command line to 'None'
+[0.363s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'target' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.363s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'target' build argument 'cmake_clean_cache' from command line to 'False'
+[0.363s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'target' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'target' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'target' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'target' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'target' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'target' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/esarchiv/Desktop/testfile/build/target', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/esarchiv/Desktop/testfile/install/target', 'merge_install': False, 'path': '/home/esarchiv/Desktop/testfile/mycodespace/target', 'symlink_install': False, 'test_result_base': None}[0m
+[0.364s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'transformer' build argument 'cmake_args' from command line to 'None'
+[0.364s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'transformer' build argument 'cmake_target' from command line to 'None'
+[0.364s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'transformer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'transformer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'transformer' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'transformer' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'transformer' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'transformer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'transformer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'transformer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/esarchiv/Desktop/testfile/build/transformer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/esarchiv/Desktop/testfile/install/transformer', 'merge_install': False, 'path': '/home/esarchiv/Desktop/testfile/mycodespace/tf', 'symlink_install': False, 'test_result_base': None}[0m
+[0.365s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.366s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.367s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/esarchiv/Desktop/testfile/sentry_description' with build type 'ament_cmake'
+[0.367s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/esarchiv/Desktop/testfile/sentry_description'
+[0.369s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.369s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.369s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.373s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/esarchiv/Desktop/testfile/mycodespace/test_cpp' with build type 'ament_cmake'
+[0.373s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/esarchiv/Desktop/testfile/mycodespace/test_cpp'
+[0.373s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.374s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.377s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/esarchiv/Desktop/testfile/mycodespace/target' with build type 'ament_cmake'
+[0.377s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/esarchiv/Desktop/testfile/mycodespace/target'
+[0.377s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.377s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.381s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/esarchiv/Desktop/testfile/mycodespace/tf' with build type 'ament_cmake'
+[0.381s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/esarchiv/Desktop/testfile/mycodespace/tf'
+[0.382s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.382s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.393s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/esarchiv/Desktop/testfile/build/sentry_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/sentry_description -- -j20 -l20[0m
+[0.396s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/esarchiv/Desktop/testfile/build/subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/subscriber -- -j20 -l20[0m
+[0.401s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/esarchiv/Desktop/testfile/build/target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/target -- -j20 -l20[0m
+[0.407s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/esarchiv/Desktop/testfile/build/transformer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/transformer -- -j20 -l20[0m
+[0.429s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/esarchiv/Desktop/testfile/build/sentry_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/sentry_description -- -j20 -l20[0m
+[0.461s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/esarchiv/Desktop/testfile/build/sentry_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/esarchiv/Desktop/testfile/build/sentry_description[0m
+[0.463s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/esarchiv/Desktop/testfile/build/subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/subscriber -- -j20 -l20[0m
+[0.465s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/esarchiv/Desktop/testfile/build/target' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/target -- -j20 -l20[0m
+[0.471s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(sentry_description)
+[0.479s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/sentry_description' for CMake module files
+[0.480s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/sentry_description' for CMake config files
+[0.480s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('sentry_description', 'cmake_prefix_path')
+[0.481s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/hook/cmake_prefix_path.ps1'
+[0.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/hook/cmake_prefix_path.dsv'
+[0.483s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/hook/cmake_prefix_path.sh'
+[0.484s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/esarchiv/Desktop/testfile/build/sentry_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/esarchiv/Desktop/testfile/build/sentry_description[0m
+[0.486s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/sentry_description/bin'
+[0.486s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/sentry_description/lib/pkgconfig/sentry_description.pc'
+[0.486s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/sentry_description/lib/python3.10/site-packages'
+[0.486s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/sentry_description/bin'
+[0.487s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/package.ps1'
+[0.488s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/package.dsv'
+[0.488s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/package.sh'
+[0.489s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/package.bash'
+[0.490s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/package.zsh'
+[0.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/esarchiv/Desktop/testfile/install/sentry_description/share/colcon-core/packages/sentry_description)
+[0.494s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/esarchiv/Desktop/testfile/build/subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/esarchiv/Desktop/testfile/build/subscriber[0m
+[0.496s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/esarchiv/Desktop/testfile/build/target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/esarchiv/Desktop/testfile/build/target[0m
+[0.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(subscriber)
+[0.507s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber' for CMake module files
+[0.508s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber' for CMake config files
+[0.509s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('subscriber', 'cmake_prefix_path')
+[0.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/hook/cmake_prefix_path.ps1'
+[0.511s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/hook/cmake_prefix_path.dsv'
+[0.512s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/hook/cmake_prefix_path.sh'
+[0.513s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber/lib'
+[0.514s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber/bin'
+[0.514s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber/lib/pkgconfig/subscriber.pc'
+[0.514s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber/lib/python3.10/site-packages'
+[0.515s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber/bin'
+[0.515s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/package.ps1'
+[0.516s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/esarchiv/Desktop/testfile/build/subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/esarchiv/Desktop/testfile/build/subscriber[0m
+[0.516s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/package.dsv'
+[0.516s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/package.sh'
+[0.517s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/package.bash'
+[0.517s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/package.zsh'
+[0.517s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/esarchiv/Desktop/testfile/install/subscriber/share/colcon-core/packages/subscriber)
+[0.519s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(target)
+[0.519s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target' for CMake module files
+[0.520s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/esarchiv/Desktop/testfile/build/target' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/esarchiv/Desktop/testfile/build/target[0m
+[0.521s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target' for CMake config files
+[0.521s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('target', 'cmake_prefix_path')
+[0.521s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/target/share/target/hook/cmake_prefix_path.ps1'
+[0.521s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/esarchiv/Desktop/testfile/install/target/share/target/hook/cmake_prefix_path.dsv'
+[0.522s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/target/share/target/hook/cmake_prefix_path.sh'
+[0.522s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target/lib'
+[0.522s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target/bin'
+[0.522s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target/lib/pkgconfig/target.pc'
+[0.522s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target/lib/python3.10/site-packages'
+[0.523s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target/bin'
+[0.523s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/target/share/target/package.ps1'
+[0.523s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/esarchiv/Desktop/testfile/install/target/share/target/package.dsv'
+[0.524s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/target/share/target/package.sh'
+[0.524s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/target/share/target/package.bash'
+[0.524s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/target/share/target/package.zsh'
+[0.524s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/esarchiv/Desktop/testfile/install/target/share/colcon-core/packages/target)
+[0.525s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(sentry_description)
+[0.526s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/sentry_description' for CMake module files
+[0.526s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/sentry_description' for CMake config files
+[0.526s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('sentry_description', 'cmake_prefix_path')
+[0.526s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/hook/cmake_prefix_path.ps1'
+[0.527s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/hook/cmake_prefix_path.dsv'
+[0.527s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/hook/cmake_prefix_path.sh'
+[0.528s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/sentry_description/bin'
+[0.528s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/sentry_description/lib/pkgconfig/sentry_description.pc'
+[0.528s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/sentry_description/lib/python3.10/site-packages'
+[0.528s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/sentry_description/bin'
+[0.528s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/package.ps1'
+[0.529s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/package.dsv'
+[0.530s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/package.sh'
+[0.530s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/package.bash'
+[0.531s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/sentry_description/share/sentry_description/package.zsh'
+[0.531s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/esarchiv/Desktop/testfile/install/sentry_description/share/colcon-core/packages/sentry_description)
+[0.540s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(subscriber)
+[0.540s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber' for CMake module files
+[0.540s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber' for CMake config files
+[0.541s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('subscriber', 'cmake_prefix_path')
+[0.541s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/hook/cmake_prefix_path.ps1'
+[0.541s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/hook/cmake_prefix_path.dsv'
+[0.542s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/hook/cmake_prefix_path.sh'
+[0.542s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber/lib'
+[0.542s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber/bin'
+[0.542s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber/lib/pkgconfig/subscriber.pc'
+[0.542s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber/lib/python3.10/site-packages'
+[0.543s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/subscriber/bin'
+[0.543s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/package.ps1'
+[0.543s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/package.dsv'
+[0.544s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/package.sh'
+[0.545s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/package.bash'
+[0.545s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/subscriber/share/subscriber/package.zsh'
+[0.546s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/esarchiv/Desktop/testfile/install/subscriber/share/colcon-core/packages/subscriber)
+[0.548s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(target)
+[0.548s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target' for CMake module files
+[0.549s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target' for CMake config files
+[0.549s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('target', 'cmake_prefix_path')
+[0.549s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/target/share/target/hook/cmake_prefix_path.ps1'
+[0.550s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/esarchiv/Desktop/testfile/install/target/share/target/hook/cmake_prefix_path.dsv'
+[0.550s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/target/share/target/hook/cmake_prefix_path.sh'
+[0.551s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target/lib'
+[0.551s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target/bin'
+[0.552s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target/lib/pkgconfig/target.pc'
+[0.552s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target/lib/python3.10/site-packages'
+[0.552s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/target/bin'
+[0.553s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/target/share/target/package.ps1'
+[0.553s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/esarchiv/Desktop/testfile/install/target/share/target/package.dsv'
+[0.554s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/target/share/target/package.sh'
+[0.555s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/target/share/target/package.bash'
+[0.555s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/target/share/target/package.zsh'
+[0.556s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/esarchiv/Desktop/testfile/install/target/share/colcon-core/packages/target)
+[8.970s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/esarchiv/Desktop/testfile/build/transformer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/transformer -- -j20 -l20[0m
+[8.994s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/esarchiv/Desktop/testfile/build/transformer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/esarchiv/Desktop/testfile/build/transformer[0m
+[9.008s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(transformer)
+[9.009s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer' for CMake module files
+[9.009s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/esarchiv/Desktop/testfile/build/transformer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/esarchiv/Desktop/testfile/build/transformer[0m
+[9.010s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer' for CMake config files
+[9.010s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('transformer', 'cmake_prefix_path')
+[9.011s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/hook/cmake_prefix_path.ps1'
+[9.011s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/hook/cmake_prefix_path.dsv'
+[9.011s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/hook/cmake_prefix_path.sh'
+[9.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer/lib'
+[9.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer/bin'
+[9.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer/lib/pkgconfig/transformer.pc'
+[9.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer/lib/python3.10/site-packages'
+[9.013s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer/bin'
+[9.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/package.ps1'
+[9.014s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/package.dsv'
+[9.014s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/package.sh'
+[9.014s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/package.bash'
+[9.014s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/package.zsh'
+[9.015s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/esarchiv/Desktop/testfile/install/transformer/share/colcon-core/packages/transformer)
+[9.038s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(transformer)
+[9.038s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer' for CMake module files
+[9.038s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer' for CMake config files
+[9.039s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('transformer', 'cmake_prefix_path')
+[9.039s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/hook/cmake_prefix_path.ps1'
+[9.039s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/hook/cmake_prefix_path.dsv'
+[9.040s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/hook/cmake_prefix_path.sh'
+[9.040s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer/lib'
+[9.040s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer/bin'
+[9.040s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer/lib/pkgconfig/transformer.pc'
+[9.040s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer/lib/python3.10/site-packages'
+[9.041s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/esarchiv/Desktop/testfile/install/transformer/bin'
+[9.041s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/package.ps1'
+[9.041s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/package.dsv'
+[9.042s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/package.sh'
+[9.042s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/package.bash'
+[9.043s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/esarchiv/Desktop/testfile/install/transformer/share/transformer/package.zsh'
+[9.043s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/esarchiv/Desktop/testfile/install/transformer/share/colcon-core/packages/transformer)
+[9.043s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[9.043s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[9.044s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[9.044s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[9.049s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.049s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.050s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[9.094s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[9.095s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/esarchiv/Desktop/testfile/install/local_setup.ps1'
+[9.095s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/esarchiv/Desktop/testfile/install/_local_setup_util_ps1.py'
+[9.096s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/esarchiv/Desktop/testfile/install/setup.ps1'
+[9.097s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/esarchiv/Desktop/testfile/install/local_setup.sh'
+[9.098s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/esarchiv/Desktop/testfile/install/_local_setup_util_sh.py'
+[9.098s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/esarchiv/Desktop/testfile/install/setup.sh'
+[9.099s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/esarchiv/Desktop/testfile/install/local_setup.bash'
+[9.099s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/esarchiv/Desktop/testfile/install/setup.bash'
+[9.100s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/esarchiv/Desktop/testfile/install/local_setup.zsh'
+[9.100s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/esarchiv/Desktop/testfile/install/setup.zsh'

@@ -1,0 +1,26 @@
+[0.026s] Invoking command in '/home/esarchiv/Desktop/testfile/build/transformer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/transformer -- -j20 -l20
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target transformer[0m
+[0.108s] [ 50%] [32mBuilding CXX object CMakeFiles/transformer.dir/src/transformer.cpp.o[0m
+[8.411s] [100%] [32m[1mLinking CXX executable transformer[0m
+[8.940s] [100%] Built target transformer
+[8.952s] Invoked command in '/home/esarchiv/Desktop/testfile/build/transformer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/esarchiv/Desktop/testfile/build/transformer -- -j20 -l20
+[8.977s] Invoking command in '/home/esarchiv/Desktop/testfile/build/transformer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/esarchiv/Desktop/testfile/build/transformer
+[8.985s] -- Install configuration: ""
+[8.985s] -- Installing: /home/esarchiv/Desktop/testfile/install/transformer/lib/transformer/transformer
+[8.990s] -- Set runtime path of "/home/esarchiv/Desktop/testfile/install/transformer/lib/transformer/transformer" to ""
+[8.990s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/ament_index/resource_index/package_run_dependencies/transformer
+[8.990s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/ament_index/resource_index/parent_prefix_path/transformer
+[8.991s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/transformer/environment/ament_prefix_path.sh
+[8.991s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/transformer/environment/ament_prefix_path.dsv
+[8.991s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/transformer/environment/path.sh
+[8.991s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/transformer/environment/path.dsv
+[8.991s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/transformer/local_setup.bash
+[8.991s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/transformer/local_setup.sh
+[8.991s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/transformer/local_setup.zsh
+[8.991s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/transformer/local_setup.dsv
+[8.991s] -- Installing: /home/esarchiv/Desktop/testfile/install/transformer/share/transformer/package.dsv
+[8.991s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/ament_index/resource_index/packages/transformer
+[8.992s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/transformer/cmake/transformerConfig.cmake
+[8.992s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/transformer/cmake/transformerConfig-version.cmake
+[8.993s] -- Up-to-date: /home/esarchiv/Desktop/testfile/install/transformer/share/transformer/package.xml
+[8.993s] Invoked command in '/home/esarchiv/Desktop/testfile/build/transformer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/esarchiv/Desktop/testfile/build/transformer

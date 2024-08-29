@@ -1,0 +1,61 @@
+[01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:[m[K In member function ‘[01m[Kvoid transformer::point_callback(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:50:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::transform(geometry_msgs::msg::PointStamped&, geometry_msgs::msg::PointStamped&, const char [10], const TimePoint&)[m[K’
+   50 |             [01;31m[Ktf_buffer_.transform(transformed_point, base_link_point, "base_link", tf2::TimePointZero)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:209:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T& tf2_ros::BufferInterface::transform(const T&, T&, const string&, tf2::Duration) const[m[K’
+  209 |   T & [01;36m[Ktransform[m[K(
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:209:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:50:88:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktf2::TimePointZero[m[K’ (type ‘[01m[Kconst TimePoint[m[K’ {aka ‘[01m[Kconst std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’}) to type ‘[01m[Ktf2::Duration[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >[m[K’}
+   50 |             tf_buffer_.transform(transformed_point, base_link_point, "base_link", [01;36m[Ktf2::TimePointZero[m[K);
+      |                                                                                   [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:231:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T tf2_ros::BufferInterface::transform(const T&, const string&, tf2::Duration) const[m[K’
+  231 |   T [01;36m[Ktransform[m[K(
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:231:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:50:33:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+   50 |             [01;36m[Ktf_buffer_.transform(transformed_point, base_link_point, "base_link", tf2::TimePointZero)[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:257:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class A, class B> B& tf2_ros::BufferInterface::transform(const A&, B&, const string&, tf2::Duration) const[m[K’
+  257 |   B & [01;36m[Ktransform[m[K(
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:257:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:50:88:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktf2::TimePointZero[m[K’ (type ‘[01m[Kconst TimePoint[m[K’ {aka ‘[01m[Kconst std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’}) to type ‘[01m[Ktf2::Duration[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >[m[K’}
+   50 |             tf_buffer_.transform(transformed_point, base_link_point, "base_link", [01;36m[Ktf2::TimePointZero[m[K);
+      |                                                                                   [01;36m[K~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:282:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T& tf2_ros::BufferInterface::transform(const T&, T&, const string&, const TimePoint&, const string&, tf2::Duration) const[m[K’
+  282 |   T & [01;36m[Ktransform[m[K(
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:282:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:50:33:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 4 provided
+   50 |             [01;36m[Ktf_buffer_.transform(transformed_point, base_link_point, "base_link", tf2::TimePointZero)[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:312:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T tf2_ros::BufferInterface::transform(const T&, const string&, const TimePoint&, const string&, tf2::Duration) const[m[K’
+  312 |   T [01;36m[Ktransform[m[K(
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:312:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:50:53:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kbase_link_point[m[K’ (type ‘[01m[Kgeometry_msgs::msg::PointStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PointStamped_<std::allocator<void> >[m[K’}) to type ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   50 |             tf_buffer_.transform(transformed_point, [01;36m[Kbase_link_point[m[K, "base_link", tf2::TimePointZero);
+      |                                                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:42[m[K,
+                 from [01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:343:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class A, class B> B& tf2_ros::BufferInterface::transform(const A&, B&, const string&, const TimePoint&, const string&, tf2::Duration) const[m[K’
+  343 |   B & [01;36m[Ktransform[m[K(
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:343:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/esarchiv/Desktop/testfile/mycodespace/tf/src/transformer.cpp:50:33:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 4 provided
+   50 |             [01;36m[Ktf_buffer_.transform(transformed_point, base_link_point, "base_link", tf2::TimePointZero)[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/transformer.dir/build.make:76：CMakeFiles/transformer.dir/src/transformer.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/transformer.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
