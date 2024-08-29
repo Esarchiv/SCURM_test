@@ -1,0 +1,29 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <PipelineSequence name="NavigateWithReplanning">
+      <RateController hz="1.0">
+        <Sequence>
+          <GoalUpdater 
+            topic_name="/tracker/target" 
+            output_goal="{enemy_position}" />
+          
+          <ComputePathToPose 
+            goal="{enemy_position}" 
+            path="{planned_path}" 
+            planner_id="GridBased" />
+          
+          <TruncatePath 
+            distance="1.0" 
+            input_path="{planned_path}" 
+            output_path="{truncated_path}" />
+        </Sequence>
+      </RateController>
+      
+      <KeepRunningUntilFailure>
+        <FollowPath 
+          path="{truncated_path}" 
+          controller_id="FollowPathController" />
+      </KeepRunningUntilFailure>
+    </PipelineSequence>
+  </BehaviorTree>
+</root>
